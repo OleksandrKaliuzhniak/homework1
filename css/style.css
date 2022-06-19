@@ -1,0 +1,52 @@
+:root {
+    --color-primary: #212121;
+    --color-accent: #fff;
+
+
+    --font-family-primary: 'Roboto', 'sans-serif';
+    --font-family-secondary: 'Raleway', 'sans-serif';
+}
+
+body {
+    --font-family-primary: 'Roboto', 'sans-serif';
+    --color-primary: #212121;
+}
+.button  {
+    background-color: #f5f4fa;
+    color: #212121;
+    cursor: pointer;
+    
+}
+
+.button :hover  {
+    background-color:  #2196F3;
+    color: #fff;
+    cursor: pointer;
+    
+    
+   
+}
+.img {
+    width: 370px;
+}
+
+img {
+    width: 370px;
+}
+
+.link {
+    color:  #757575;
+}
+.link:hover {
+    color: #2196F3;
+    
+}
+h3 {
+    font-size: 18px;
+        line-height: 36px;
+}
+p {
+    font-size: 16px;
+        line-height: 30px;
+}
+
