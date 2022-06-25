@@ -8,8 +8,11 @@
 }
 
 body {
-    --font-family-primary: 'Roboto', 'sans-serif';
-    --color-primary: #212121;
+    font-family: var(--color-primary);
+    font-family: var(--font-family-primary);
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    background-color: #fff;
 }
 .button  {
     background-color: #f5f4fa;
