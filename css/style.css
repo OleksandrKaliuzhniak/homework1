@@ -1,6 +1,6 @@
 :root {
     --color-primary: #212121;
-    --color-accent: #fff;
+    --color-accent: #fff,#f5f4fa,#2196F3,#757575;
 
 
     --font-family-primary: 'Roboto', 'sans-serif';
@@ -58,10 +58,12 @@ img {
     
 }
 h3 {
+    font-family: var(--font-family-primary);
     font-size: 18px;
         line-height: 36px;
 }
 p {
+    font-family: var(--font-family-primary);
     font-size: 16px;
         line-height: 30px;
 }
