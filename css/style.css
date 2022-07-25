@@ -1,70 +1,181 @@
+/* Головний колір background: #212121; */
+/* другорядний колір тексту background: #757575; */
+/* білий background: #FFFFFF; */
+/* акцент background: #2196F3; */
+/* другорядний колір фону background: #2F303A;
+background: #F5F4FA;
+ */
 :root {
-    --color-primary: #212121;
-    --color-accent: #fff,#f5f4fa,#2196F3,#757575;
-
-
-    --font-family-primary: 'Roboto', 'sans-serif';
-    --font-family-secondary: 'Raleway', 'sans-serif';
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --background-color:#fff;
+    --logotype-color: #000000;
+    --footer-navigtion-color:rgba(255, 255, 255, 0.6);
+    --background-button-color:#F5F4FA;
 }
-
-html {
-    box-sizing: border-box;
-}
-
-*, 
-*::before,
-*::after {
-box-sizing: inherit;
-}
-
-
-
-
-body {
-    font-family: var(--color-primary);
-    font-family: var(--font-family-primary);
-    font-size: 14px;
+ body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    background-color: #fff;
-}
-.button  {
-    background-color: #f5f4fa;
-    color: #212121;
-    cursor: pointer;
-    
-}
 
-.button :hover  {
-    background-color:  #2196F3;
+    
+    
+ }
+
+
+/* Header */
+ .logo {
+    color: var(--logotype-color);
+    font-family: Raleway, cursive;
+    font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+ }
+
+ /* ul {
+    list-style: none;
+ } */
+
+ .site-nav a {
+    color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+ }
+
+ .site-nav a:hover,
+ .site-nav a:focus  {
+    color: var(--accent-color);
+ }
+
+ .auth-nav .item {
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+ }
+ .auth-nav .item:hover,
+ .auth-nav .item:focus {
+    color:  var(--accent-color);
+ }
+
+
+ /* Hero */
+  .hero-title {
+    color: var(--background-color);
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+  }
+/* h1 {
     color: #fff;
-    cursor: pointer;
-    
-    
-   
+} */
+.hero .button {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.8;
 }
-.img {
+.hero .button:hover,
+.hero .button:focus {
+    color: var(--background-color);
+        background-color: var(--accent-color);
+}
+
+
+
+
+ /* Main */
+
+
+
+ .section-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+ }
+
+
+ /* Feature */
+ .feature-list .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+ }
+
+ .feature-list .text {
+    color: var(--title-text-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+ }
+
+ /* Team */
+ .future-list-personal .title {
+    color: var(--primary-text-color);
+ }
+ .future-list-personal .text {
+    color: var(--title-text-color);
+ }
+
+ .future-list, .future-list-personal .future-img {
     width: 370px;
-}
+ }
 
-img {
+ /* Footer*/
+ .footer .text {
+    color: var(--background-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+ }
+
+ .footer a {
+    color: var(--footer-navigtion-color);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+ }
+
+ /* Portfolio */
+
+ .portfolio .item {
+    color: var(--primary-text-color);
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+ }
+ .portfolio .text {
+    color: var(--title-text-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.8;
+ }
+
+ .button .click {
+    color: var(--primary-text-color);
+    background-color: var(--background-button-color);
+
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+
+ }
+ .button .click:hover,
+ .button .click:focus {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+ }
+ .portfolio .portfolio-img {
     width: 370px;
-}
-
-.link {
-    color:  #757575;
-}
-.link:hover {
-    color: #2196F3;
-    
-}
-h3 {
-    font-family: var(--font-family-primary);
-    font-size: 18px;
-        line-height: 36px;
-}
-p {
-    font-family: var(--font-family-primary);
-    font-size: 16px;
-        line-height: 30px;
-}
-
+ }
